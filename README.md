@@ -1,14 +1,12 @@
-<h2> Meme Generator - MemeClub </h2>
-<h4> Things Learnt <h4>
+# Meme Generator - MemeClub
+##  Things Learnt 
 
-<h6> 1.Random Method: </h6>
-<span>
-    Math.random() - Generates random number between 0-1. </br>
-    Therefore if we have to generate random number between 0-10: </br>
-</span>
-    ```javascript
-        Math.floor( Math.random() * 10 );
-    ```
+#### 1.Random Method:
+Math.random() - Generates random number between 0-1. </br>
+Therefore if we have to generate random number between 0-10: </br>
+```
+    Math.floor( Math.random() * 10 );
+```
         
     
 
