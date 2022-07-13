@@ -6,8 +6,8 @@
     Math.random() - Generates random number between 0-1. </br>
     Therefore if we have to generate random number between 0-10: </br>
 </span>
-    ```
-        Math.floor( Math.random() * 10 )
+    ```javascript
+        Math.floor( Math.random() * 10 );
     ```
         
     
