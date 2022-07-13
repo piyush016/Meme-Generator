@@ -2,8 +2,8 @@
 <h4> Things Learnt <h4>
 <ol>
     <li>Random Method: </li>
-        <span>Math.random() - Generates random number between 0-1 </span>
-        <span>Therefore if we have to generate random number between 0-10:
+        <span>Math.random() - Generates random number between 0-1. /br>
+        Therefore if we have to generate random number between 0-10:
         Math.floor( Math.random() * 10 )</span>
     
 
