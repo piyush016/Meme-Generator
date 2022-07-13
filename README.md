@@ -1,16 +1,16 @@
 <h2> Meme Generator - MemeClub </h2>
 <h4> Things Learnt <h4>
 <ol>
-    <li>Random Method:
+    <li>Random Method: </li>
         <span>Math.random() - Generates random number between 0-1 </span>
         <span>Therefore if we have to generate random number between 0-10:
         Math.floor( Math.random() * 10 )</span>
-    </li>
+    
 
     <li>Event listener
         <span>In the button tag: <button onClick={whateverfucntion}> Click ME </button> </span>
         <span>In the whatever function: function whateverfunction(){
-            //your code here
+            <!-- your code here -->
         }
         </span>
     </li>
@@ -45,7 +45,7 @@
     const thingsElements = thingsArray.map(thing => <p key={thing}> {thing} </p>)
     </span>
 
-    <li>Updating State object:
+    <li>Updating State object: </li>
         <span>
         const [contact, setContact] = React.useState({
         firstName: "Piyush",
@@ -58,13 +58,23 @@
         let starIcon = contact.isFavorite ? "star-filled.png" : "star-empty.png"
 
         functopn toggleFavorite{
-            setContact(prevContact => {
+            setContact(prevContact => ({
                 return {
                 ...prevContact, //Using spread technique
                 isFavorite: !prevContact.isFavorite
-                }
+                })
             })
         }
         </span>
-    </li>
+
+    <li>Adding CSS in React </li>
+    <span>
+        <div style={styles}> </div>
+        And by making a variable, 
+        const styles = {
+            backgroundColor: "black"
+            <!-- Rest of the code -->
+        }
+    </span>
+
 </ol>
