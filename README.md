@@ -13,7 +13,7 @@ Therefore if we have to generate random number between 0-10: </br>
 #### 2.Event listener:
 In the button tag: 
 ```
-    <button onClick={whateverfucntion}> Click ME </button>
+    <button onClick={whateverfuntcion}> Click ME </button>
 ```
 In the whatever function: 
 ```
@@ -27,11 +27,11 @@ In the whatever function:
 React state can be either used by
 ```
     import {useState} and 'react' and then useState()
-        or
-        React.useState()
+        <!-- or -->
+    React.useState()
 ```        
-It returns array consisting 2 things:
-```const [value, function] = React.useState(Initial_Value)```
+It returns array consisting 2 things: </br>
+```const [value, function] = React.useState(Initial_Value);```
 Generally the value is thing component which we want to change and function is the setValue which consist of logic for the value to change.
 
 #### 4.Spreading an array: ```[...array]```
@@ -77,7 +77,7 @@ Adding an element in an array:
 ```
     <div style={styles}> </div>
 
-    <!-- And by making a variable -->
+    <!-- By making a variable styles -->
     const styles = {
         backgroundColor: "black"
         <!-- Rest of the code -->
