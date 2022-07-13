@@ -1,14 +1,15 @@
 <h2> Meme Generator - MemeClub </h2>
 <h4> Things Learnt <h4>
-<ol>
-    <li>Random Method: </li>
-        <span>Math.random() - Generates random number between 0-1. </br>
-        Therefore if we have to generate random number between 0-10: </br>
-        Math.floor( Math.random() * 10 )
+
+    <h6> 1.Random Method: </h6>
+        <span>
+            Math.random() - Generates random number between 0-1. </br>
+            Therefore if we have to generate random number between 0-10: </br>
+            Math.floor( Math.random() * 10 )
         </span>
     
 
-    <li>Event listener: </li>
+    <h6> 2.Event listener: </h6>
         <span>In the button tag: <button onClick={whateverfucntion}> Click ME </button> </span>
         <span>In the whatever function: function whateverfunction(){
             <!-- your code here -->
@@ -16,7 +17,7 @@
         </span>
     
 
-    <li>React State
+    <h6> 3.React State:</h6>
         <p>
         React state can be either used by
         import {useState} and 'react' and then useState()
@@ -29,9 +30,9 @@
         <p>
         Generally the value is thing component which we want to change and function is the setValue which consist of logic for the value to change.
         </p>
-    </li>
+    
 
-    <li>Spreading an array: [...array]</li>
+    <h6> 4.Spreading an array: [...array]</h6>
     <span>
     Adding an element in an array:
 
@@ -46,7 +47,7 @@
     const thingsElements = thingsArray.map(thing => <p key={thing}> {thing} </p>)
     </span>
 
-    <li>Updating State object: </li>
+    <h6> 5.Updating State object: </h6>
         <span>
         const [contact, setContact] = React.useState({
         firstName: "Piyush",
@@ -68,7 +69,7 @@
         }
         </span>
 
-    <li>Adding CSS in React </li>
+    <h6> 6.Adding CSS in React </h6>
     <span>
         <div style={styles}> </div>
         And by making a variable, 
