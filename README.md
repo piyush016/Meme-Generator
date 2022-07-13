@@ -1,7 +1,7 @@
 # Meme Generator - MemeClub
 ##  Things Learnt 
 
-#### 1.Random Method:
+#### 1. Random Method:
 Math.random() - Generates random number between 0-1. </br>
 Therefore if we have to generate random number between 0-10: </br>
 ```
@@ -10,47 +10,50 @@ Therefore if we have to generate random number between 0-10: </br>
         
     
 
-    <h6> 2.Event listener: </h6>
-        <span>In the button tag: <button onClick={whateverfucntion}> Click ME </button> </span>
-        <span>In the whatever function: function whateverfunction(){
-            <!-- your code here -->
-        }
-        </span>
+#### 2.Event listener:
+In the button tag: 
+```
+    <button onClick={whateverfucntion}> Click ME </button>
+```
+In the whatever function: 
+```
+    function whateverfunction(){
+        <!-- your code here -->
+    }
+```
     
 
-    <h6> 3.React State:</h6>
-        <p>
-        React state can be either used by
-        import {useState} and 'react' and then useState()
+#### 3.React State:
+React state can be either used by
+```
+    import {useState} and 'react' and then useState()
         or
         React.useState()
-        </p>
-        <p>It returns array consisting 2 things:
-        const [value, function] = React.useState(Initial_Value)
-        </p>
-        <p>
-        Generally the value is thing component which we want to change and function is the setValue which consist of logic for the value to change.
-        </p>
-    
+```        
+It returns array consisting 2 things:
+```const [value, function] = React.useState(Initial_Value)```
+Generally the value is thing component which we want to change and function is the setValue which consist of logic for the value to change.
 
-    <h6> 4.Spreading an array: [...array]</h6>
-    <span>
-    Adding an element in an array:
-
-    const [thingArray, setThingsArray] = React.useState(["Thing1","Thing2"]) //Things existing in the array
-
+#### 4.Spreading an array: ```[...array]```
+Adding an element in an array:
+```
+    const [thingArray, setThingsArray] = React.useState(["Thing1","Thing2"]) 
+    <!-- Things existing in the array -->
+```
+```
     function addItem() {
         setThingsArray((prevStateArray) => {
             return [...prevStateArray, `Thing${prevStateArray.length + 1}`]
         })
     }
-
+```
+```
     const thingsElements = thingsArray.map(thing => <p key={thing}> {thing} </p>)
-    </span>
+```
 
-    <h6> 5.Updating State object: </h6>
-        <span>
-        const [contact, setContact] = React.useState({
+#### 5.Updating State object: 
+```
+    const [contact, setContact] = React.useState({
         firstName: "Piyush",
         lastName: "Kumar',
         phone: "+91 (108) 654-2323",
@@ -68,16 +71,15 @@ Therefore if we have to generate random number between 0-10: </br>
                 })
             })
         }
-        </span>
+```
 
-    <h6> 6.Adding CSS in React </h6>
-    <span>
-        <div style={styles}> </div>
-        And by making a variable, 
-        const styles = {
-            backgroundColor: "black"
-            <!-- Rest of the code -->
-        }
-    </span>
+#### 6.Adding CSS in React:
+```
+    <div style={styles}> </div>
 
-</ol>
+    <!-- And by making a variable -->
+    const styles = {
+        backgroundColor: "black"
+        <!-- Rest of the code -->
+    }
+```
