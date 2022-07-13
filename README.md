@@ -2,18 +2,19 @@
 <h4> Things Learnt <h4>
 <ol>
     <li>Random Method: </li>
-        <span>Math.random() - Generates random number between 0-1. /br>
-        Therefore if we have to generate random number between 0-10:
-        Math.floor( Math.random() * 10 )</span>
+        <span>Math.random() - Generates random number between 0-1. </br>
+        Therefore if we have to generate random number between 0-10: </br>
+        Math.floor( Math.random() * 10 )
+        </span>
     
 
-    <li>Event listener
+    <li>Event listener: </li>
         <span>In the button tag: <button onClick={whateverfucntion}> Click ME </button> </span>
         <span>In the whatever function: function whateverfunction(){
             <!-- your code here -->
         }
         </span>
-    </li>
+    
 
     <li>React State
         <p>
